@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  transition: 0,5s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  background-image: url('../img/bg-img.png');
+  background-repeat: no-repeat;
+  background-position: top  right -150px;
+  background-size: 750px 680px;
+  background-color: #edf3f8;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-image: url('../img/bg-img.png');
+    background-repeat: no-repeat;
+    background-position: top  right -150px;
+    background-size: 650px 580px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-image: url('../img/Bitmap.png');
+    background-repeat: no-repeat;
+    background-position: top left -80px; 
+    background-size: 950px 350px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url('../img/Bitmap.png');
+    background-repeat: no-repeat;
+    background-position: top left -80px; 
+    background-size: 700px 350px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-image: url('../img/Bitmap.png');
+    background-repeat: no-repeat;
+    background-position: top left -80px; 
+    background-size: 630px 250px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  body {
+    background-image: url('../img/Bitmap.png');
+    background-repeat: no-repeat;
+    background-position: top left -80px; 
+    background-size: 500px 250px;
+  }
+}
