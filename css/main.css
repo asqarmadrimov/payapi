@@ -164,16 +164,25 @@ body {
 
 .humburger__content {
   position: absolute;
+  top: 0;
   right: 0;
   left: -10;
-  bottom: 0px;
   width: 80%;
-  padding-top: 40px;
-  height: 400px;
+  padding-top: 100px;
+  height: 500px;
   text-align: center;
-  background-color: black;
+  background-color: #1c1e20;
   display: none;
   z-index: 2;
+}
+
+.humburger-hr {
+  margin-bottom: 50px;
+  background-color: #8d204a;
+  opacity: 0.5;
+  max-width: 200px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .humburger__link {
@@ -184,6 +193,10 @@ body {
   color: #FBFCFE;
   mix-blend-mode: normal;
   opacity: 0.7;
+}
+
+.humburger__img-x {
+  display: none;
 }
 
 .humburger__link:hover {
@@ -197,10 +210,6 @@ body {
 
 .humburger__item {
   margin-bottom: 25px;
-}
-
-.humburger__img-x {
-  display: none;
 }
 
 .humburger__check:checked ~ .humburger__content {
@@ -472,6 +481,7 @@ body {
   color: #FBFCFE;
   mix-blend-mode: normal;
   opacity: 0.7;
+  transition: 0.5s;
 }
 
 .intro__button {
@@ -481,6 +491,18 @@ body {
   border: solid 1px white;
   background-color: #1B262F;
   color: white;
+}
+
+.intro__button:hover {
+  background-color: #fbfcfe;
+  color: #1B262F;
+}
+
+.intro__button:active {
+  background-color: #fbfcfe;
+  color: #1B262F;
+  font-size: 16px;
+  border: solid 1px black;
 }
 
 .intro__list {
@@ -741,6 +763,9 @@ body {
   }
 }
 @media only screen and (max-width: 500px) {
+  .simple__inner {
+    padding-top: 0px;
+  }
   .simple__img {
     display: block;
     max-width: 306px;
@@ -907,7 +932,7 @@ body {
 @media only screen and (max-width: 350px) {
   .start__inner {
     padding-top: 35px;
-    padding-bottom: 65px;
+    padding-bottom: 35px;
     display: block;
     text-align: center;
   }

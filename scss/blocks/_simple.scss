@@ -77,6 +77,10 @@
 }
 
 @media only screen and (max-width:500px) {
+  .simple__inner {
+    padding-top: 0px;
+  }
+  
   .simple__img {
     display: block;
     max-width: 306px;

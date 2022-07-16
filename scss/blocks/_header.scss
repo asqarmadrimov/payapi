@@ -71,16 +71,25 @@
 
 .humburger__content {
   position: absolute;
+  top: 0;
   right: 0;
   left: -10;
-  bottom: 0px;
   width: 80%;
-  padding-top: 40px;
-  height: 400px;
+  padding-top: 100px;
+  height: 500px;
   text-align: center;
-  background-color: black;
+  background-color: #1c1e20;
   display: none;
   z-index: 2;
+}
+
+.humburger-hr {
+  margin-bottom: 50px;
+  background-color: #8d204a;
+  opacity: 0.5;
+  max-width: 200px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .humburger__link {
@@ -93,6 +102,9 @@
   opacity: 0.7;
 }
 
+.humburger__img-x {
+  display: none;
+}
 .humburger__link:hover {
   color: white;
   opacity: 1;
@@ -106,9 +118,6 @@
   margin-bottom: 25px;
 }
 
-.humburger__img-x {
-  display: none;
-}
 
 .humburger__check:checked ~ .humburger__content {
   display: block;
