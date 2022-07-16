@@ -501,7 +501,6 @@ body {
 .intro__button:active {
   background-color: #fbfcfe;
   color: #1B262F;
-  font-size: 16px;
   border: solid 1px black;
 }
 
